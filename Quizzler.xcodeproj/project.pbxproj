@@ -18,6 +18,7 @@
 		4E50FB60259375AE001771C4 /* QuestionLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E50FB5F259375AE001771C4 /* QuestionLoader.swift */; };
 		4E50FB65259376FE001771C4 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E50FB64259376FE001771C4 /* Question.swift */; };
 		4E50FB6A25938353001771C4 /* mydata.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E50FB6925938353001771C4 /* mydata.json */; };
+		4E586FE12594D6EC00EA7419 /* QuestionBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E586FE02594D6EB00EA7419 /* QuestionBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		4E50FB5F259375AE001771C4 /* QuestionLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionLoader.swift; sourceTree = "<group>"; };
 		4E50FB64259376FE001771C4 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		4E50FB6925938353001771C4 /* mydata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mydata.json; sourceTree = "<group>"; };
+		4E586FE02594D6EB00EA7419 /* QuestionBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				4E50FB6925938353001771C4 /* mydata.json */,
 				4E50FB5F259375AE001771C4 /* QuestionLoader.swift */,
 				4E50FB64259376FE001771C4 /* Question.swift */,
+				4E586FE02594D6EB00EA7419 /* QuestionBrain.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			files = (
 				4E50FB65259376FE001771C4 /* Question.swift in Sources */,
 				4E192F55259135510058F2F5 /* ViewController.swift in Sources */,
+				4E586FE12594D6EC00EA7419 /* QuestionBrain.swift in Sources */,
 				4E192F51259135510058F2F5 /* AppDelegate.swift in Sources */,
 				4E50FB60259375AE001771C4 /* QuestionLoader.swift in Sources */,
 				4E192F53259135510058F2F5 /* SceneDelegate.swift in Sources */,

@@ -2,62 +2,62 @@
     {
         "question_id" : 1,
         "question_string" : "A gestação dos cavalos-marinhos é feita pelos machos",
-        "isTrue" : true,
+        "answer" : true,
         "points" : 5
     },
     {
         "question_id" : 2,
         "question_string" : "Por causa do tamanho, as girafas ficam o tempo todo em pé e só se deitam quando vão dar à luz",
-        "isTrue" : false,
+        "answer" : false,
         "points" : 5
     },
     {
         "question_id" : 3,
         "question_string" : "Os ornitorrincos são os únicos mamíferos venenosos que se tem notícia.",
-        "isTrue" : false,
+        "answer" : false,
         "points" : 5
     },
     {
         "question_id" : 4,
         "question_string" : "Os louva-a-deus são capazes de capturar aranhas, lagartos e até ratos.",
-        "isTrue" : true,
+        "answer" : true,
         "points" : 5
     },
      {
         "question_id" : 5,
         "question_string" : "Apesar de serem os mais famosos, os morcegos não são os únicos mamíferos capazes de voar.",
-        "isTrue" : false,
+        "answer" : false,
         "points" : 5
     },
     {
         "question_id" : 6,
         "question_string" : "Existe uma espécie de pássaro que fica voando por até dez meses sem parar.",
-        "isTrue" : true,
+        "answer" : true,
         "points" : 5
     },
     {
         "question_id" : 7,
         "question_string" : "Algumas arraias conseguem dar saltos de até três metros de altura.",
-        "isTrue" : true,
+        "answer" : true,
         "points" : 5
     },
     
       {
         "question_id" : 8,
         "question_string" : "Os beija-flores são excelentes voadores, mas também conseguem usar suas patas para caminhar no solo.",
-        "isTrue" : false,
+        "answer" : false,
         "points" : 5
     },
     {
         "question_id" : 9,
         "question_string" : "Um bicho-preguiça possui mais vértebras cervicais que um elefante ou uma girafa.",
-        "isTrue" : true,
+        "answer" : true,
         "points" : 5
     },
     {
         "question_id" : 10,
         "question_string" : "Os golfinhos usam as toxinas liberadas pelos baiacus para ficarem doidões.",
-        "isTrue" : true,
+        "answer" : true,
         "points" : 5
     },
     

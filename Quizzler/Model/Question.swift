@@ -13,6 +13,6 @@ struct Question: Codable {
     
     var question_id: Int
     var question_string: String
-    var isTrue: Bool
+    var answer: Bool
     var points: Int
 }
