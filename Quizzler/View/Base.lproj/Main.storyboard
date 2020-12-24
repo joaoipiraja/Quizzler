@@ -47,7 +47,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="setAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4BS-nu-vaS"/>
+                                                    <action selector="setAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DGA-AC-Kpq"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEy-SH-4Ba">
@@ -60,7 +60,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="setAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="anZ-Ax-kiH"/>
+                                                    <action selector="setAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="52V-1F-1vE"/>
                                                 </connections>
                                             </button>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LgW-gv-zXt">
@@ -86,11 +86,11 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="btnFalse" destination="iEy-SH-4Ba" id="6D9-Qn-mMo"/>
-                        <outlet property="btnTrue" destination="EaU-L2-Y7k" id="KdR-bs-H6W"/>
-                        <outlet property="lblPoints" destination="JAP-cE-VAR" id="gyr-D0-Arr"/>
-                        <outlet property="lblQuestion" destination="ti1-bp-66f" id="Oxg-D3-jbO"/>
-                        <outlet property="progressBar" destination="LgW-gv-zXt" id="wyX-KA-Z9m"/>
+                        <outlet property="btnFalse" destination="iEy-SH-4Ba" id="hxz-kH-rTV"/>
+                        <outlet property="btnTrue" destination="EaU-L2-Y7k" id="r0l-GH-cgo"/>
+                        <outlet property="lblPoints" destination="JAP-cE-VAR" id="Cwe-85-ML8"/>
+                        <outlet property="lblQuestion" destination="ti1-bp-66f" id="cUs-6J-fjX"/>
+                        <outlet property="progressBar" destination="LgW-gv-zXt" id="mHc-EF-gVo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

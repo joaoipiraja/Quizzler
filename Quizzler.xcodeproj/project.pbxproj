@@ -105,16 +105,14 @@
 		4E192F4F259135510058F2F5 /* Quizzler */ = {
 			isa = PBXGroup;
 			children = (
-				4E50FB6925938353001771C4 /* mydata.json */,
 				4E192F50259135510058F2F5 /* AppDelegate.swift */,
 				4E192F52259135510058F2F5 /* SceneDelegate.swift */,
-				4E192F54259135510058F2F5 /* ViewController.swift */,
-				4E192F56259135510058F2F5 /* Main.storyboard */,
 				4E192F59259135580058F2F5 /* Assets.xcassets */,
 				4E192F5B259135590058F2F5 /* LaunchScreen.storyboard */,
 				4E192F5E259135590058F2F5 /* Info.plist */,
-				4E50FB5F259375AE001771C4 /* QuestionLoader.swift */,
-				4E50FB64259376FE001771C4 /* Question.swift */,
+				4E50FB732594C6C3001771C4 /* View */,
+				4E50FB722594C690001771C4 /* Controller */,
+				4E50FB712594C664001771C4 /* Model */,
 			);
 			path = Quizzler;
 			sourceTree = "<group>";
@@ -135,6 +133,32 @@
 				4E192F74259135590058F2F5 /* Info.plist */,
 			);
 			path = QuizzlerUITests;
+			sourceTree = "<group>";
+		};
+		4E50FB712594C664001771C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E50FB6925938353001771C4 /* mydata.json */,
+				4E50FB5F259375AE001771C4 /* QuestionLoader.swift */,
+				4E50FB64259376FE001771C4 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E50FB722594C690001771C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E192F54259135510058F2F5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E50FB732594C6C3001771C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E192F56259135510058F2F5 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
