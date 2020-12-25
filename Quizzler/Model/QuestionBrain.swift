@@ -9,27 +9,40 @@ import Foundation
 
 public class QuestionBrain {
     private var data: Array<Question> = QuestionLoader().questions
-    private var questionNumber:Int = 0
+    private var questionNumber:Int = 1
     private var score:Int = 0
     
     
-   
-    func nextQuestion(){
-        if((self.questionNumber+1) < self.data.count){
-            self.questionNumber+=1
-        }
+    func isPlaying() -> Bool{
+        return ((self.questionNumber) != (self.data.count+1))
     }
     
-    func checkAnswer(_ userAnswer: String){
-        let userAnswer = Bool(userAnswer.lowercased())
-        let answer = self.data[self.questionNumber].answer
-        if(userAnswer == answer){
-            self.score += self.data[self.questionNumber].points
+    private func nextQuestion(){
+        self.questionNumber+=1
+    }
+    
+    private func getindex() -> Int{
+        if let i = data.firstIndex(where: { $0.question_id  == self.questionNumber}) {
+            return i
+        }else{
+            return (data.count - 1)
         }
         
     }
+    
+    func checkAnswer(_ userAnswer: String){
+        
+            let userAnswer = Bool(userAnswer.lowercased())
+            let answer = self.data[getindex()].answer
+            if(userAnswer == answer){
+                self.score += self.data[getindex()].points
+            }
+            self.nextQuestion()
+        
+    }
+    
     func getQuestionText() -> String{
-        return self.data[self.questionNumber].question_string
+        return data[getindex()].question_string
     }
     func getProgress() -> Float{
         let progress = Float(self.questionNumber)/(Float(self.data.count) - 1.0)
@@ -46,9 +59,6 @@ public class QuestionBrain {
         return String(format: "%d points",self.score)
     }
     
-    func isPlaying() -> Bool{
-        return ((self.questionNumber+1) < self.data.count)
-    }
     
   
     

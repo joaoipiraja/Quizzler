@@ -20,24 +20,18 @@ class ViewController: UIViewController {
     
     @IBAction func setAnswer(_ sender: UIButton) {
         
+        qb.checkAnswer(sender.currentTitle!)
+        progressBar.setProgress(qb.getProgress(), animated: true)
+        lblQuestion.text = qb.getQuestionText()
+        lblPoints.text = qb.getScore()
         
-      
-        
-        if(qb.isPlaying()){
-            qb.checkAnswer(sender.currentTitle!)
-            qb.nextQuestion()
-            progressBar.setProgress(qb.getProgress(), animated: true)
-            lblQuestion.text = qb.getQuestionText()
-            lblPoints.text = qb.getScore()
-
-        }else{
+        if(!qb.isPlaying()){
             btnTrue.isEnabled = false
             btnFalse.isEnabled = false
             lblQuestion.text = "You hit \(qb.getPercentageScore())!"
         }
         
-      
-        
+    
     }
     
     override func viewDidLoad() {
