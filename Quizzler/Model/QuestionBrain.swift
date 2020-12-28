@@ -32,9 +32,9 @@ public class QuestionBrain {
     
     func checkAnswer(_ userAnswer: String){
         
-            let userAnswer = Bool(userAnswer.lowercased())
+            let userAnswerBool = Bool(userAnswer.lowercased())
             let answer = self.data[getindex()].answer
-            if(userAnswer == answer){
+            if(userAnswerBool == answer){
                 self.score += self.data[getindex()].points
             }
             self.nextQuestion()
@@ -45,7 +45,7 @@ public class QuestionBrain {
         return data[getindex()].question_string
     }
     func getProgress() -> Float{
-        let progress = Float(self.questionNumber)/(Float(self.data.count) - 1.0)
+        let progress = Float(self.questionNumber)/(Float(self.data.count)+1.0)
         return progress
     }
     
